@@ -93,9 +93,10 @@ export default function Hero() {
               visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
             }`}
           >
-            Offrez-vous ce centre déjà aménagé, immédiatement exploitable, conçu
-            pour répondre aux nouveaux besoins des entreprises face à
-            l&apos;intelligence artificielle, au cœur d&apos;Avignon-Montfavet.
+            Achetez les murs et les équipements de ce centre aménagé,
+            immédiatement exploitable, conçu pour répondre aux nouveaux besoins
+            des entreprises face à l&apos;intelligence artificielle, au cœur
+            d&apos;Avignon-Montfavet.
           </p>
 
           {/* CTAs */}
