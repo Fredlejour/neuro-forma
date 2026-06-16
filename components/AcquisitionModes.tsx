@@ -27,7 +27,7 @@ const modes: Mode[] = [
   {
     icon: PieChart,
     badge: "Acquisition des parts de SCI",
-    title: "Reprise de la SCI CELISAM",
+    title: "Reprise de la Société Civile Immobilière (SCI) propriétaire",
     items: [
       "Acquisition des parts de la SCI propriétaire",
       "Reprise du financement existant sous réserve d'accord bancaire",
