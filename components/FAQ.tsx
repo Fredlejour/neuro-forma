@@ -21,7 +21,7 @@ const faqs = [
   },
   {
     q: "Y a-t-il des travaux à prévoir ?",
-    a: "Le bien est entièrement aménagé et en activité. Un état des lieux technique détaillé est disponible sur demande, incluant l'historique complet des travaux réalisés.",
+    a: "Le bien est entièrement aménagé et en activité. Un état des lieux technique détaillé est disponible sur demande.",
   },
   {
     q: "Le concept Neuro-Campus est-il transférable ?",

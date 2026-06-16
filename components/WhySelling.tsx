@@ -42,7 +42,11 @@ export default function WhySelling() {
               et les professionnels auront besoin de lieux capables de réunir
               formation, innovation,{" "}
               <strong className="font-semibold text-navy-900">
-                intelligence artificielle et performance humaine
+                intelligence artificielle
+              </strong>{" "}
+              et{" "}
+              <strong className="font-semibold text-navy-900">
+                performance humaine
               </strong>
               .
             </p>
@@ -53,15 +57,40 @@ export default function WhySelling() {
             </p>
             <p>
               Aujourd&apos;hui, il a choisi de transmettre ce lieu pour
-              rejoindre sa famille déjà installée en{" "}
+              rejoindre sa famille déjà installée en Amérique du Sud et
+              poursuivre depuis ce nouveau continent le développement de projets
+              innovants associant{" "}
               <strong className="font-semibold text-navy-900">
-                Amérique du Sud
-              </strong>{" "}
-              et participer à un{" "}
+                intelligence artificielle
+              </strong>
+              ,{" "}
               <strong className="font-semibold text-navy-900">
-                projet de développement durable
+                technologies à impact positif
               </strong>{" "}
-              aligné avec ses convictions personnelles.
+              et{" "}
+              <strong className="font-semibold text-navy-900">
+                performance humaine
+              </strong>
+              .
+            </p>
+            <p>
+              Sa mission consiste notamment à développer des{" "}
+              <strong className="font-semibold text-navy-900">
+                solutions SaaS
+              </strong>{" "}
+              fondées sur l&apos;intelligence artificielle, destinées à
+              accompagner les organisations et les individus face aux nouveaux
+              défis cognitifs de notre époque. Ces projets visent en particulier
+              à contribuer à la prévention du déclin cognitif, à soutenir les
+              aidants accompagnant les personnes atteintes de maladies
+              neurodégénératives et à favoriser une utilisation plus humaine et
+              plus responsable de la technologie.
+            </p>
+            <p>
+              Cette nouvelle orientation mobilisant désormais l&apos;essentiel
+              de son temps et de son énergie, il a fait le choix de transmettre
+              ce lieu à un nouvel exploitant afin qu&apos;il puisse poursuivre
+              son développement et révéler tout son potentiel.
             </p>
             <p>
               L&apos;acquéreur bénéficie ainsi d&apos;un{" "}
@@ -72,12 +101,11 @@ export default function WhySelling() {
               <strong className="font-semibold text-navy-900">
                 accessible PMR
               </strong>
-              , stratégiquement situé à{" "}
-              <strong className="font-semibold text-navy-900">
-                proximité d&apos;Agroparc
-              </strong>{" "}
+              , stratégiquement situé à proximité d&apos;
+              <strong className="font-semibold text-navy-900">Agroparc</strong>{" "}
               et prêt à accueillir des activités de formation, de conseil,
-              d&apos;innovation, de santé ou de bien-être.
+              d&apos;innovation et d&apos;accompagnement des organisations face
+              aux transformations de demain.
             </p>
           </div>
         </div>

@@ -6,6 +6,7 @@ import NeuroChallenge from "@/components/NeuroChallenge";
 import NeuroForma from "@/components/NeuroForma";
 import NeuroPlace from "@/components/NeuroPlace";
 import KeyFigures from "@/components/KeyFigures";
+import PricingExamples from "@/components/PricingExamples";
 import VirtualTour from "@/components/VirtualTour";
 import Location from "@/components/Location";
 import WhySelling from "@/components/WhySelling";
@@ -28,6 +29,7 @@ export default function Home() {
         <NeuroForma />
         <NeuroPlace />
         <KeyFigures />
+        <PricingExamples />
         <VirtualTour />
         <Location />
         <WhySelling />
