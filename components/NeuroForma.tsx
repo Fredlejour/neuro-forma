@@ -11,8 +11,8 @@ const pillars = [
     color: "from-navy-700 to-navy-600",
     borderColor: "border-gold-500/30",
     items: [
-      "IA générative",
-      "Automatisation",
+      "IA générative et automatisations",
+      "Salariés référents IA",
       "Ingénierie de prompts",
       "Audit des processus",
     ],
@@ -86,11 +86,6 @@ export default function NeuroForma() {
             inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
           }`}
         >
-          <div className="inline-flex items-center gap-2 bg-gold-500/10 border border-gold-500/20 rounded-full px-4 py-1.5 mb-6">
-            <span className="text-gold-600 text-xs font-bold tracking-[0.2em] uppercase">
-              Scénario Premium
-            </span>
-          </div>
           <h2 className="section-title mb-5">
             <span className="text-gold-500">Former. Régénérer. Ancrer.</span>
             <br className="hidden md:block" />

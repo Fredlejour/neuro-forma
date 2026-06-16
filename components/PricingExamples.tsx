@@ -10,7 +10,6 @@ import {
   Mic,
   Brain,
   Microscope,
-  TrendingUp,
   type LucideIcon,
 } from "lucide-react";
 
@@ -69,15 +68,6 @@ const categories: Category[] = [
   },
 ];
 
-const synthesis = [
-  { label: "2 journées de formation IA / mois à 2 500 €", total: "5 000 €/mois" },
-  { label: "1 audit IA / mois à 4 000 €", total: "4 000 €/mois" },
-  {
-    label: "1 atelier performance cognitive / mois à 1 500 €",
-    total: "1 500 €/mois",
-  },
-];
-
 export default function PricingExamples() {
   const ref = useRef<HTMLElement>(null);
   const inView = useInView(ref, 0.1);
@@ -116,7 +106,7 @@ export default function PricingExamples() {
         </div>
 
         {/* Cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 mb-14">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
           {categories.map((cat, i) => (
             <div
               key={i}
@@ -153,62 +143,6 @@ export default function PricingExamples() {
             </div>
           ))}
         </div>
-
-        {/* Bloc de synthèse */}
-        <div
-          className={`max-w-3xl mx-auto rounded-2xl bg-navy-800 text-white shadow-xl px-7 py-9 md:px-10 md:py-10 transition-all duration-700 delay-300 ${
-            inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
-          }`}
-        >
-          <div className="flex items-center gap-3 mb-6">
-            <div className="w-11 h-11 rounded-xl bg-gold-500/15 border border-gold-500/30 flex items-center justify-center flex-shrink-0">
-              <TrendingUp size={22} className="text-gold-400" />
-            </div>
-            <h3 className="font-serif text-2xl font-semibold text-white">
-              Exemple d&apos;activité possible
-            </h3>
-          </div>
-          <ul className="space-y-3 mb-6">
-            {synthesis.map((s, i) => (
-              <li
-                key={i}
-                className="flex items-center justify-between gap-4 border-b border-white/10 pb-3"
-              >
-                <span className="text-white/70 text-sm md:text-base">
-                  {s.label}
-                </span>
-                <span className="text-gold-400 font-semibold text-sm md:text-base whitespace-nowrap">
-                  {s.total}
-                </span>
-              </li>
-            ))}
-          </ul>
-          <div className="rounded-xl bg-gold-500/10 border border-gold-500/20 px-5 py-4 text-center">
-            <p className="text-white text-base md:text-lg">
-              Soit une activité illustrée de{" "}
-              <strong className="text-gold-400 font-semibold">
-                10 500 €/mois
-              </strong>{" "}
-              ou{" "}
-              <strong className="text-gold-400 font-semibold">
-                126 000 €/an
-              </strong>
-              .
-            </p>
-          </div>
-        </div>
-
-        {/* Mention importante */}
-        <p
-          className={`max-w-3xl mx-auto mt-8 text-center text-navy-300 text-xs md:text-sm leading-relaxed transition-all duration-700 delay-500 ${
-            inView ? "opacity-100" : "opacity-0"
-          }`}
-        >
-          Les montants indiqués correspondent à des exemples de niveaux de
-          facturation observés sur le marché. Les résultats réels dépendent du
-          positionnement, de l&apos;offre, du taux de remplissage et de la
-          stratégie commerciale de l&apos;exploitant.
-        </p>
       </div>
     </section>
   );

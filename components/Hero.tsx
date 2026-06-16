@@ -127,7 +127,7 @@ export default function Hero() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 lg:gap-6 max-w-4xl">
             {[
               { icon: Building2, value: "193 m²", label: "Surface totale" },
-              { icon: Euro, value: "< 300 000 €", label: "Prix de vente" },
+              { icon: Euro, value: "< 300 000 €", label: "Prix de vente Murs et équipements" },
               { icon: LayoutGrid, value: "6 espaces", label: "Aménagés & équipés" },
               { icon: TrendingUp, value: "Jour 1", label: "Exploitation immédiate" },
             ].map((m, i) => (

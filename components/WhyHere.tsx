@@ -42,8 +42,7 @@ const pillars = [
       "Réponse aux nouveaux besoins des entreprises",
       "Infrastructure immédiatement exploitable",
     ],
-    conclusion:
-      "Vous n'acquérez pas uniquement un lieu. Vous acquérez un centre déjà structuré pour développer une activité de formation et d'accompagnement à l'ère de l'intelligence artificielle.",
+    conclusion: "",
   },
 ];
 
@@ -173,10 +172,12 @@ export default function WhyHere() {
                 ))}
               </ul>
               <p className="text-center text-white/90 text-base md:text-lg leading-relaxed border-t border-white/10 pt-7">
-                Vous n&apos;acquérez pas uniquement un actif immobilier.{" "}
+                Vous acquérez un actif immobilier en achetant les murs et les
+                équipements.{" "}
                 <strong className="text-gold-400 font-semibold">
-                  Vous acquérez un centre déjà structuré pour répondre aux
-                  nouveaux besoins des entreprises face à l&apos;intelligence
+                  Vous bénéficiez ainsi d&apos;un centre déjà structuré,
+                  immédiatement exploitable, conçu pour répondre aux nouveaux
+                  besoins des entreprises face à l&apos;intelligence
                   artificielle.
                 </strong>
               </p>

@@ -15,7 +15,7 @@ const blocks = [
       },
       {
         value: "72 %",
-        desc: "des utilisateurs professionnels estiment avoir besoin de davantage de formation",
+        desc: "des utilisateurs professionnels estiment avoir besoin davantage de formation",
       },
     ],
     conclusion:
@@ -153,7 +153,7 @@ export default function WhyNow() {
             La réponse : <span className="text-gold-400">Neuro Forma</span>
           </h3>
           <p className="text-white/60 text-base md:text-lg leading-relaxed mb-6">
-            Les entreprises doivent désormais relever deux défis simultanément :
+            Les entreprises doivent désormais relever trois enjeux complémentaires :
           </p>
           <ul className="inline-block text-left space-y-3 mb-7">
             {[
@@ -172,7 +172,7 @@ export default function WhyNow() {
           </ul>
           <p className="text-white/80 text-base md:text-lg leading-relaxed max-w-xl mx-auto">
             <strong className="text-gold-400 font-semibold">Neuro Forma</strong>{" "}
-            a été conçu pour répondre à ces enjeux au sein d&apos;un même lieu.
+            a été conçu pour répondre à ces trois enjeux au sein d&apos;un même lieu.
           </p>
         </div>
 
