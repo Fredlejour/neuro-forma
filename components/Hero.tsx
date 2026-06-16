@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { FileText, Calendar, Building2, Euro, LayoutGrid, TrendingUp, CheckCircle2, User } from "lucide-react";
+import { FileText, Calendar, Building2, Euro, LayoutGrid, TrendingUp, CheckCircle2 } from "lucide-react";
 
 export default function Hero() {
   const [visible, setVisible] = useState(false);
@@ -100,7 +100,7 @@ export default function Hero() {
 
           {/* CTAs */}
           <div
-            className={`flex flex-col sm:flex-row sm:flex-wrap sm:items-start gap-4 mb-16 transition-all duration-700 delay-600 ${
+            className={`flex flex-col sm:flex-row gap-4 mb-16 transition-all duration-700 delay-600 ${
               visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
             }`}
           >
@@ -115,18 +115,6 @@ export default function Hero() {
               <Calendar size={18} />
               Planifier une visite
             </a>
-            <div className="flex flex-col items-center gap-1.5">
-              <a
-                href="#contact-frederic"
-                className="inline-flex items-center justify-center gap-2 px-8 py-4 border-2 border-white/30 text-white font-semibold text-sm tracking-wide uppercase rounded-sm hover:bg-white/10 transition-all duration-300"
-              >
-                <User size={18} />
-                Contacter Frédéric Lejour
-              </a>
-              <span className="text-white/50 text-xs">
-                Chargé de la commercialisation des locaux Neuro Forma
-              </span>
-            </div>
           </div>
         </div>
 

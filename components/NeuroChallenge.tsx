@@ -89,9 +89,10 @@ export default function NeuroChallenge() {
             <span className="text-gold-400">les capacités humaines</span>.
           </h2>
           <p className="text-lg md:text-xl text-white/50 max-w-3xl mx-auto leading-relaxed">
-            Les entreprises doivent désormais relever deux défis simultanément :
-            adopter l&apos;intelligence artificielle tout en préservant et en
-            développant les capacités humaines.
+            Les entreprises doivent désormais relever trois enjeux
+            complémentaires : adopter l&apos;intelligence artificielle,
+            développer les compétences humaines et préserver les capacités
+            cognitives nécessaires à une prise de décision de qualité.
           </p>
         </div>
 
@@ -131,7 +132,7 @@ export default function NeuroChallenge() {
         >
           <p className="font-serif text-2xl md:text-3xl text-white/90 max-w-4xl lg:max-w-none mx-auto leading-relaxed lg:whitespace-nowrap">
             <strong className="text-gold-400">Neuro Forma</strong> a été conçu
-            pour répondre à ces deux enjeux.
+            pour répondre à ces trois enjeux.
           </p>
         </div>
 
