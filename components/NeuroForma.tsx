@@ -92,8 +92,8 @@ export default function NeuroForma() {
             Le modèle Neuro Forma.
           </h2>
           <p className="section-subtitle mx-auto">
-            Un concept exclusif qui transforme cet actif en centre de performance
-            cognitive — le seul dans le Sud de la France.
+            Implanté en Provence, un concept unique en France par son approche
+            combinant intelligence artificielle et prévention cognitive.
           </p>
         </div>
 

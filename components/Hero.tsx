@@ -69,7 +69,7 @@ export default function Hero() {
             }`}
           >
             Le premier Centre de Formation dédié à l&apos;IA et à la{" "}
-            <span className="text-gold-400">Performance Cognitive</span>
+            <span className="text-gold-400">Prévention Cognitive</span>
           </p>
 
           {/* Réassurance actif */}
