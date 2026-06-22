@@ -6,15 +6,15 @@ const GA_MEASUREMENT_ID = "G-YGP1Z9PRPV";
 
 export const metadata: Metadata = {
   title:
-    "Neuro-Campus Avignon — 193 m² à vendre | Centre formation, santé & coworking",
+    "Neuro Forma — Centre de Formation IA & Prévention Cognitive à vendre",
   description:
-    "Actif immobilier premium de 193 m² à Avignon-Montfavet. 6 espaces aménagés, exploitation immédiate, concept Neuro-Campus éprouvé. Formation IA, neurosciences, santé. Moins de 300 000 €. Visite virtuelle disponible.",
+    "Achetez les murs et les équipements de ce centre de formation IA et prévention cognitive. 193 m² aménagés, immédiatement exploitables à Avignon-Montfavet.",
   keywords:
     "immobilier professionnel Avignon, local commercial Montfavet, investissement immobilier, centre de formation IA, espace santé bien-être, coworking Avignon, Neuro-Campus, neurosciences, AI Act formation",
   openGraph: {
-    title: "Neuro-Campus Avignon — Un actif rare. Plusieurs futurs possibles.",
+    title: "Neuro Forma — Centre de Formation IA & Prévention Cognitive à vendre",
     description:
-      "193 m² opérationnels à Avignon-Montfavet. Centre de formation, espace santé, coworking ou Neuro-Campus. 6 espaces aménagés, exploitation dès le 1er jour. Moins de 300 000 €.",
+      "Achetez les murs et les équipements de ce centre de formation IA et prévention cognitive. 193 m² aménagés, immédiatement exploitables à Avignon-Montfavet.",
     url: "https://neuro-campus.fr",
     siteName: "Neuro-Campus Avignon",
     locale: "fr_FR",
@@ -30,9 +30,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Neuro-Campus Avignon — Un actif rare. Plusieurs futurs possibles.",
+    title: "Neuro Forma — Centre de Formation IA & Prévention Cognitive à vendre",
     description:
-      "193 m² opérationnels à Avignon-Montfavet. Exploitation immédiate. Moins de 300 000 €.",
+      "Achetez les murs et les équipements de ce centre de formation IA et prévention cognitive. 193 m² aménagés, immédiatement exploitables à Avignon-Montfavet.",
     images: ["/images/entree.webp"],
   },
   robots: {
