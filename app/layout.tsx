@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Neuro Forma — Formation IA & Prévention Cognitive à vendre",
     description:
-      "Achetez les murs et équipements de ce centre de formation IA. 193 m² aménagés, immédiatement exploitables à Avignon-Montfavet.",
+      "Achetez les murs et équipements de ce centre de formation IA. 193 m² aménagés et exploitables à Avignon-Montfavet.",
     url: "https://neuro-forma.vercel.app",
     siteName: "Neuro Forma",
     locale: "fr_FR",
@@ -21,8 +21,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/images/og-neuro-forma.webp",
-        width: 1200,
-        height: 630,
+        width: 1729,
+        height: 910,
         alt: "Neuro Forma — Centre de Formation IA & Prévention Cognitive à Avignon-Montfavet",
       },
     ],
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Neuro Forma — Formation IA & Prévention Cognitive à vendre",
     description:
-      "Achetez les murs et équipements de ce centre de formation IA. 193 m² aménagés, immédiatement exploitables à Avignon-Montfavet.",
+      "Achetez les murs et équipements de ce centre de formation IA. 193 m² aménagés et exploitables à Avignon-Montfavet.",
     images: ["/images/og-neuro-forma.webp"],
   },
   robots: {
