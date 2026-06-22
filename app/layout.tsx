@@ -10,13 +10,13 @@ export const metadata: Metadata = {
   description:
     "Achetez les murs et les équipements de ce centre de formation IA et prévention cognitive. 193 m² aménagés, immédiatement exploitables à Avignon-Montfavet.",
   keywords:
-    "immobilier professionnel Avignon, local commercial Montfavet, investissement immobilier, centre de formation IA, espace santé bien-être, coworking Avignon, Neuro-Campus, neurosciences, AI Act formation",
+    "Neuro Forma, centre de formation IA, prévention cognitive, formation intelligence artificielle, immobilier professionnel Avignon, local commercial Montfavet, Avignon-Montfavet, AI Act formation",
   openGraph: {
     title: "Neuro Forma — Centre de Formation IA & Prévention Cognitive à vendre",
     description:
       "Achetez les murs et les équipements de ce centre de formation IA et prévention cognitive. 193 m² aménagés, immédiatement exploitables à Avignon-Montfavet.",
-    url: "https://neuro-campus.fr",
-    siteName: "Neuro-Campus Avignon",
+    url: "https://neuro-forma.vercel.app",
+    siteName: "Neuro Forma",
     locale: "fr_FR",
     type: "website",
     images: [
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
         url: "/images/entree.webp",
         width: 1200,
         height: 630,
-        alt: "Neuro-Campus Avignon — 193 m² d'opportunité immobilière premium",
+        alt: "Neuro Forma — Centre de Formation IA & Prévention Cognitive à Avignon-Montfavet",
       },
     ],
   },
@@ -43,17 +43,17 @@ export const metadata: Metadata = {
     google: "S7ZRsc_rOWU3SkM_VmcxTfq6ri-gylArkquqgjoYIJg",
   },
   alternates: {
-    canonical: "https://neuro-campus.fr",
+    canonical: "https://neuro-forma.vercel.app",
   },
 };
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "RealEstateListing",
-  name: "Neuro-Campus Avignon — 193 m² professionnel",
+  name: "Neuro Forma — Centre de Formation IA & Prévention Cognitive",
   description:
-    "Actif immobilier premium de 193 m² à Avignon-Montfavet. 6 espaces aménagés, concept Neuro-Campus éprouvé, exploitation immédiate.",
-  url: "https://neuro-campus.fr",
+    "Achetez les murs et les équipements de ce centre de formation IA et prévention cognitive de 193 m² à Avignon-Montfavet. Espaces aménagés, immédiatement exploitables.",
+  url: "https://neuro-forma.vercel.app",
   image: "/images/entree.webp",
   address: {
     "@type": "PostalAddress",
