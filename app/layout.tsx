@@ -5,23 +5,22 @@ import "./globals.css";
 const GA_MEASUREMENT_ID = "G-YGP1Z9PRPV";
 
 export const metadata: Metadata = {
-  title:
-    "Neuro Forma — Centre de Formation IA & Prévention Cognitive à vendre",
+  title: "Neuro Forma — Formation IA & Prévention Cognitive à vendre",
   description:
     "Achetez les murs et les équipements de ce centre de formation IA et prévention cognitive. 193 m² aménagés, immédiatement exploitables à Avignon-Montfavet.",
   keywords:
     "Neuro Forma, centre de formation IA, prévention cognitive, formation intelligence artificielle, immobilier professionnel Avignon, local commercial Montfavet, Avignon-Montfavet, AI Act formation",
   openGraph: {
-    title: "Neuro Forma — Centre de Formation IA & Prévention Cognitive à vendre",
+    title: "Neuro Forma — Formation IA & Prévention Cognitive à vendre",
     description:
-      "Achetez les murs et les équipements de ce centre de formation IA et prévention cognitive. 193 m² aménagés, immédiatement exploitables à Avignon-Montfavet.",
+      "Achetez les murs et équipements de ce centre de formation IA. 193 m² aménagés, immédiatement exploitables à Avignon-Montfavet.",
     url: "https://neuro-forma.vercel.app",
     siteName: "Neuro Forma",
     locale: "fr_FR",
     type: "website",
     images: [
       {
-        url: "/images/entree.webp",
+        url: "/images/og-neuro-forma.webp",
         width: 1200,
         height: 630,
         alt: "Neuro Forma — Centre de Formation IA & Prévention Cognitive à Avignon-Montfavet",
@@ -30,10 +29,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Neuro Forma — Centre de Formation IA & Prévention Cognitive à vendre",
+    title: "Neuro Forma — Formation IA & Prévention Cognitive à vendre",
     description:
-      "Achetez les murs et les équipements de ce centre de formation IA et prévention cognitive. 193 m² aménagés, immédiatement exploitables à Avignon-Montfavet.",
-    images: ["/images/entree.webp"],
+      "Achetez les murs et équipements de ce centre de formation IA. 193 m² aménagés, immédiatement exploitables à Avignon-Montfavet.",
+    images: ["/images/og-neuro-forma.webp"],
   },
   robots: {
     index: true,
